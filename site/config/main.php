@@ -13,7 +13,8 @@ return [
     'controllerNamespace' => 'site\controllers',
     'controllerMap' => [
         'site' => 'yashop\site\controllers\SiteController',
-        'user' => 'yashop\site\controllers\UserController'
+        'user' => 'yashop\site\controllers\UserController',
+        'item' => 'yashop\site\controllers\ItemController'
     ],
     'viewPath' => '@yashop-site/views',
     'params' => $params,
