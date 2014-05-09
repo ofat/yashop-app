@@ -1,1 +1,9 @@
-/.idea
+.idea
+admin/config/main-local.php
+admin/runtime/*
+admin/web/assets/*
+common/config/main-local.php
+site/config/main-local.php
+site/runtime/*
+site/web/assets/*
+vendor/*

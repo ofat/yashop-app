@@ -1,9 +1,9 @@
 <?php
 return [
-    'adminEmail' => 'admin@example.com',
-    'supportEmail' => 'ofatv22@gmail.com',
+    'adminEmail' => 'admin@test.com',
+    'supportEmail' => 'support@test.com',
     'user.passwordResetTokenExpire' => 3600,
     'pageSize'  => 20,
-    'userMaxAddress' => 3,
+    'userMaxAddress' => 10,
     'defaultCurrency' => 'usd'
 ];
