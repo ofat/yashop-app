@@ -1,4 +1,5 @@
 .idea
+composer.phar
 admin/config/main-local.php
 admin/runtime/*
 admin/web/assets/*
