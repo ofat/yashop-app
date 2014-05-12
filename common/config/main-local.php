@@ -6,7 +6,7 @@ return [
         ],
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=yashop',
+            'dsn' => 'mysql:host=localhost;dbname=yatest',
             'username' => 'root',
             'password' => '5304001',
             'charset' => 'utf8',
