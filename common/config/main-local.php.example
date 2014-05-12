@@ -1,12 +1,16 @@
 <?php
 return [
     'components' => [
+        'cache' => [
+            'class' => 'yii\caching\FileCache',
+        ],
         'db' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost;dbname=yashop',
             'username' => '',
             'password' => '',
             'charset' => 'utf8',
+            'enableSchemaCache' => true
         ],
         'ses' => [
             'class' => 'yashop\ses\Mailer',

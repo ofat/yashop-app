@@ -11,7 +11,7 @@
 defined('STDIN') or define('STDIN', fopen('php://stdin', 'r'));
 defined('STDOUT') or define('STDOUT', fopen('php://stdout', 'w'));
 
-$vendorPath = __DIR__ . '/../../../..';
+$vendorPath = __DIR__ . '/../../vendor';
 
 require_once($vendorPath . '/autoload.php');
 require_once($vendorPath . '/yiisoft/yii2/Yii.php');
