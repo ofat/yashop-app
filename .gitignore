@@ -8,3 +8,4 @@ site/config/main-local.php
 site/runtime/*
 site/web/assets/*
 vendor/*
+cdn/items/*

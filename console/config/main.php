@@ -6,4 +6,7 @@ return [
     'controllerMap' => [
 
     ],
+    'params' => [
+        'siteImagePath' => dirname(__FILE__) . '/../../cdn'
+    ]
 ];
