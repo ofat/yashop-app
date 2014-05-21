@@ -1,5 +1,6 @@
 <?php
 return [
+    'baseDomain' => '.yashop',
     'adminEmail' => 'admin@test.com',
     'supportEmail' => 'support@test.com',
     'user.passwordResetTokenExpire' => 3600,
