@@ -8,11 +8,8 @@ return yii\helpers\ArrayHelper::merge(
         'id' => 'app-site',
         'basePath' => dirname(__DIR__),
         'bootstrap' => ['log'],
-        'controllerNamespace' => 'site\controllers',
         'controllerMap' => [
-            'site' => 'yashop\site\controllers\SiteController',
-            'user' => 'yashop\site\controllers\UserController',
-            'item' => 'yashop\site\controllers\ItemController'
+
         ],
         'viewPath' => '@yashop-site/views',
         'params' => $params,
