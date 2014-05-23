@@ -19,4 +19,7 @@ return [
             'secret_key' => 'idZ52sEiHJIxsnilaZOkgvpkBuseSbuOlyEelVnq'
         ],
     ],
+    'params' => [
+        'staticUrl' => 'http://static.yashop'
+    ]
 ];

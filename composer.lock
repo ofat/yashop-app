@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "45adf77a530308749394c6f48ed55c07",
+    "hash": "c0e6c9dd8bdfd15b14a1b6c2f0ab2aa0",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -115,12 +115,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "5476642acfe1e2851b55debc3f4b6d972338f2a0"
+                "reference": "a47e8c188d6b6b69ce0211a1347947a620729a42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/5476642acfe1e2851b55debc3f4b6d972338f2a0",
-                "reference": "5476642acfe1e2851b55debc3f4b6d972338f2a0",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/a47e8c188d6b6b69ce0211a1347947a620729a42",
+                "reference": "a47e8c188d6b6b69ce0211a1347947a620729a42",
                 "shasum": ""
             },
             "require": {
@@ -157,7 +157,59 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2014-05-14 21:18:42"
+            "time": "2014-05-09 10:12:47"
+        },
+        {
+            "name": "imagine/imagine",
+            "version": "v0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/avalanche123/Imagine.git",
+                "reference": "f64ec666baaa800edcbf237db41121a569230709"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/f64ec666baaa800edcbf237db41121a569230709",
+                "reference": "f64ec666baaa800edcbf237db41121a569230709",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "sami/sami": "dev-master"
+            },
+            "suggest": {
+                "ext-gd": "to use the GD implementation",
+                "ext-gmagick": "to use the Gmagick implementation",
+                "ext-imagick": "to use the Imagick implementation"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Imagine": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bulat Shakirzyanov",
+                    "email": "mallluhuct@gmail.com",
+                    "homepage": "http://avalanche123.com"
+                }
+            ],
+            "description": "Image processing for PHP 5.3",
+            "homepage": "http://imagine.readthedocs.org/",
+            "keywords": [
+                "drawing",
+                "graphics",
+                "image manipulation",
+                "image processing"
+            ],
+            "time": "2013-07-10 17:25:36"
         },
         {
             "name": "ofat/yii2-yashop",
@@ -165,24 +217,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ofat/yashop.git",
-                "reference": "99a84a92074ad9b1b8d57a112e7df62db7e33b46"
+                "reference": "5aafcd6515ad8e493668125d454794ee74b99f09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ofat/yashop/zipball/99a84a92074ad9b1b8d57a112e7df62db7e33b46",
-                "reference": "99a84a92074ad9b1b8d57a112e7df62db7e33b46",
+                "url": "https://api.github.com/repos/ofat/yashop/zipball/5aafcd6515ad8e493668125d454794ee74b99f09",
+                "reference": "5aafcd6515ad8e493668125d454794ee74b99f09",
                 "shasum": ""
             },
             "require": {
                 "ofat/yii2-yashop-ses": "*",
                 "php": ">=5.4.0",
                 "yiisoft/yii2": "*",
-                "yiisoft/yii2-bootstrap": "*"
+                "yiisoft/yii2-bootstrap": "*",
+                "yiisoft/yii2-twig": "*"
             },
             "require-dev": {
-                "codeception/codeception": " 1.8.*@dev",
-                "codeception/specify": " *",
-                "codeception/verify": " *",
                 "yiisoft/yii2-codeception": "*",
                 "yiisoft/yii2-debug": "*",
                 "yiisoft/yii2-gii": "*"
@@ -215,7 +265,7 @@
                 "shop",
                 "yii2"
             ],
-            "time": "2014-05-16 08:59:32"
+            "time": "2014-05-03 09:46:14"
         },
         {
             "name": "ofat/yii2-yashop-ses",
@@ -265,12 +315,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "a40ff40b8fb852af8034b215e2102ca8ff1618e0"
+                "reference": "10e9fef85c6afde2b3804df928d9351b0f110a6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/a40ff40b8fb852af8034b215e2102ca8ff1618e0",
-                "reference": "a40ff40b8fb852af8034b215e2102ca8ff1618e0",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/10e9fef85c6afde2b3804df928d9351b0f110a6c",
+                "reference": "10e9fef85c6afde2b3804df928d9351b0f110a6c",
                 "shasum": ""
             },
             "type": "library",
@@ -305,7 +355,64 @@
                 "responsive",
                 "web"
             ],
-            "time": "2014-05-15 08:58:19"
+            "time": "2014-05-23 04:48:56"
+        },
+        {
+            "name": "twig/twig",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fabpot/Twig.git",
+                "reference": "55253c3f37b1b47ad797eb95f27b0a33e3a76d2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/55253c3f37b1b47ad797eb95f27b0a33e3a76d2f",
+                "reference": "55253c3f37b1b47ad797eb95f27b0a33e3a76d2f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.15-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "https://github.com/fabpot/Twig/graphs/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2014-05-15 19:43:48"
         },
         {
             "name": "yiisoft/jquery",
@@ -362,12 +469,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "2c98c9d1ad8e81dcc83b31322cfbc64db123fc9d"
+                "reference": "195ddb68ee4741fde8e353ffd09d37a9011bb28c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/2c98c9d1ad8e81dcc83b31322cfbc64db123fc9d",
-                "reference": "2c98c9d1ad8e81dcc83b31322cfbc64db123fc9d",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/195ddb68ee4741fde8e353ffd09d37a9011bb28c",
+                "reference": "195ddb68ee4741fde8e353ffd09d37a9011bb28c",
                 "shasum": ""
             },
             "require": {
@@ -432,7 +539,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2014-05-15 08:00:06"
+            "time": "2014-05-09 14:28:11"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -564,6 +671,95 @@
                 "yii2"
             ],
             "time": "2014-04-23 01:25:11"
+        },
+        {
+            "name": "yiisoft/yii2-imagine",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-imagine.git",
+                "reference": "a1d98fa8fc0a0eec1365bafd4aa8228ebcf10bbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-imagine/zipball/a1d98fa8fc0a0eec1365bafd4aa8228ebcf10bbf",
+                "reference": "a1d98fa8fc0a0eec1365bafd4aa8228ebcf10bbf",
+                "shasum": ""
+            },
+            "require": {
+                "imagine/imagine": "v0.5.0",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yii\\imagine\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Ramirez",
+                    "email": "amigo.cobos@gmail.com",
+                    "homepage": "http://www.ramirezcobos.com",
+                    "role": "Founder and development"
+                }
+            ],
+            "description": "The Imagine integration for the Yii framework",
+            "keywords": [
+                "helper",
+                "image",
+                "imagine",
+                "yii2"
+            ],
+            "time": "2014-04-23 01:25:11"
+        },
+        {
+            "name": "yiisoft/yii2-twig",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-twig.git",
+                "reference": "ed430e33c80374226a5fe007474088d0ea709a9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-twig/zipball/ed430e33c80374226a5fe007474088d0ea709a9e",
+                "reference": "ed430e33c80374226a5fe007474088d0ea709a9e",
+                "shasum": ""
+            },
+            "require": {
+                "twig/twig": "*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yii\\twig\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/",
+                    "role": "Core framework development"
+                }
+            ],
+            "description": "The Twig integration for the Yii framework",
+            "keywords": [
+                "renderer",
+                "twig",
+                "yii2"
+            ],
+            "time": "2014-05-04 21:13:44"
         }
     ],
     "packages-dev": [
@@ -792,12 +988,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "63a5bdc32658b7d6fb2d14145472d07046323d07"
+                "reference": "69764bba25ab87b87a8070d1096d8de9139a1545"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/63a5bdc32658b7d6fb2d14145472d07046323d07",
-                "reference": "63a5bdc32658b7d6fb2d14145472d07046323d07",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/69764bba25ab87b87a8070d1096d8de9139a1545",
+                "reference": "69764bba25ab87b87a8070d1096d8de9139a1545",
                 "shasum": ""
             },
             "require": {
@@ -851,7 +1047,7 @@
                 "functional testing",
                 "unit testing"
             ],
-            "time": "2014-05-13 03:28:51"
+            "time": "2014-05-08 19:12:44"
         },
         {
             "name": "codeception/specify",
@@ -1620,12 +1816,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "955c24b708f8bfd6a05f303217a8dac3a443d531"
+                "reference": "ad4e1e23ae01b483c16f600ff1bebec184588e32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/955c24b708f8bfd6a05f303217a8dac3a443d531",
-                "reference": "955c24b708f8bfd6a05f303217a8dac3a443d531",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/ad4e1e23ae01b483c16f600ff1bebec184588e32",
+                "reference": "ad4e1e23ae01b483c16f600ff1bebec184588e32",
                 "shasum": ""
             },
             "require": {
@@ -1662,7 +1858,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2014-05-12 05:34:42"
+            "time": "2014-03-03 05:10:30"
         },
         {
             "name": "phpunit/phpunit",
@@ -1901,12 +2097,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "50be4f30d0a93404e5d62b05fd7294492cf64c4f"
+                "reference": "ea1e32f8f3c78ca1a31f5a730229b028f1e76431"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/50be4f30d0a93404e5d62b05fd7294492cf64c4f",
-                "reference": "50be4f30d0a93404e5d62b05fd7294492cf64c4f",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/ea1e32f8f3c78ca1a31f5a730229b028f1e76431",
+                "reference": "ea1e32f8f3c78ca1a31f5a730229b028f1e76431",
                 "shasum": ""
             },
             "require": {
@@ -1949,7 +2145,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-15 08:56:35"
+            "time": "2014-05-09 08:15:02"
         },
         {
             "name": "symfony/css-selector",
@@ -2125,12 +2321,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "1343b576d1401f4a5117cab4e250201ae348143a"
+                "reference": "51e3af2081d8497f6552cb3338e8a40541646773"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/1343b576d1401f4a5117cab4e250201ae348143a",
-                "reference": "1343b576d1401f4a5117cab4e250201ae348143a",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/51e3af2081d8497f6552cb3338e8a40541646773",
+                "reference": "51e3af2081d8497f6552cb3338e8a40541646773",
                 "shasum": ""
             },
             "require": {
@@ -2165,7 +2361,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-12 09:28:39"
+            "time": "2014-04-28 05:15:04"
         },
         {
             "name": "symfony/process",
@@ -2311,12 +2507,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "1d0d2a02d9651978285013a9449cb54fc5842fa1"
+                "reference": "63e360841e250f8b76e2df5301628cb695a32bee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/1d0d2a02d9651978285013a9449cb54fc5842fa1",
-                "reference": "1d0d2a02d9651978285013a9449cb54fc5842fa1",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/63e360841e250f8b76e2df5301628cb695a32bee",
+                "reference": "63e360841e250f8b76e2df5301628cb695a32bee",
                 "shasum": ""
             },
             "require": {
@@ -2347,7 +2543,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2014-04-25 19:04:39"
+            "time": "2014-05-17 12:43:47"
         },
         {
             "name": "yiisoft/yii2-gii",
@@ -2355,12 +2551,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "3bdd568316589ed6065711c98580a4844ec6d55a"
+                "reference": "0f3ae3f283d2418cfcfab1b75e5c1967a4a4b7a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/3bdd568316589ed6065711c98580a4844ec6d55a",
-                "reference": "3bdd568316589ed6065711c98580a4844ec6d55a",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/0f3ae3f283d2418cfcfab1b75e5c1967a4a4b7a2",
+                "reference": "0f3ae3f283d2418cfcfab1b75e5c1967a4a4b7a2",
                 "shasum": ""
             },
             "require": {
@@ -2392,7 +2588,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2014-05-14 23:44:20"
+            "time": "2014-05-06 07:20:26"
         }
     ],
     "aliases": [
