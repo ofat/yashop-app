@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c0e6c9dd8bdfd15b14a1b6c2f0ab2aa0",
+    "hash": "0c78e2601b14d52bc85ed2de9fbcb509",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -631,6 +631,52 @@
             "time": "2014-05-14 22:27:39"
         },
         {
+            "name": "yiisoft/yii2-elasticsearch",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-elasticsearch.git",
+                "reference": "c4753600a3b8a367019b69f0b4856f3daf108d81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-elasticsearch/zipball/c4753600a3b8a367019b69f0b4856f3daf108d81",
+                "reference": "c4753600a3b8a367019b69f0b4856f3daf108d81",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yii\\elasticsearch\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Core framework development"
+                }
+            ],
+            "description": "Elasticsearch integration and ActiveRecord for the Yii framework",
+            "keywords": [
+                "active-record",
+                "elasticsearch",
+                "fulltext",
+                "search",
+                "yii2"
+            ],
+            "time": "2014-05-23 14:58:21"
+        },
+        {
             "name": "yiisoft/yii2-faker",
             "version": "dev-master",
             "source": {
@@ -716,6 +762,52 @@
                 "yii2"
             ],
             "time": "2014-04-23 01:25:11"
+        },
+        {
+            "name": "yiisoft/yii2-sphinx",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-sphinx.git",
+                "reference": "24affa724ee45a72698fa01139ecc21b813b6532"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-sphinx/zipball/24affa724ee45a72698fa01139ecc21b813b6532",
+                "reference": "24affa724ee45a72698fa01139ecc21b813b6532",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "ext-pdo_mysql": "*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yii\\sphinx\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com",
+                    "role": "Core framework development"
+                }
+            ],
+            "description": "Sphinx full text search engine extension for the Yii framework",
+            "keywords": [
+                "active-record",
+                "fulltext",
+                "search",
+                "sphinx",
+                "yii2"
+            ],
+            "time": "2014-05-23 14:58:21"
         },
         {
             "name": "yiisoft/yii2-twig",
